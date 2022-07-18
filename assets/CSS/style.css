@@ -1,0 +1,751 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+/* CUSTOMISATION GENERALES  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{  
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+p {font-family: "Roboto Regular", sans-serif;}
+
+h2{
+    text-transform: uppercase;
+    font-family: "Roboto Bold", sans-serif ;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: "Roboto Bold", sans-serif;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-family: "Roboto Bold", sans-serif;
+}
+
+header > nav > ul > li + li::before{
+    margin: 2vh;
+    content: '|';
+}
+
+/* CUSTOMISATION DU HEADER */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.logo {
+    margin: 1vh;
+    margin-right: 60vh;
+}
+
+header > nav > ul {
+
+    font-family: "Roboto Bold";
+    list-style-type: none;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-left: 7vh;
+}
+
+header > nav > ul > li > a {color: black;}
+
+h1 {
+    font-size: 4.9rem;
+    margin-left: 25vh;
+    margin-right: 25vh;
+    font-family: "Roboto Bold";
+    text-transform: uppercase;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+/* CUSTOMISATION DE L'ENTETE  */
+
+#banner{
+    height: 50vh;
+    width: 100vw;
+    background-image: url(../img/photo-1556139943-4bdca53adf1e\ 1.jpg);
+    background-position: center;  
+    background-size: cover; 
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1
+
+{
+    
+    text-align: center;
+    font-family: "Roboto Bold", sans-serif;
+    color: white;
+    border: 1px solid #ff4676;
+    border-radius: 3px;
+    background-color: #ff4676;
+    width: 150px;
+    padding: 20px;
+
+}
+
+/* CUSTOMISATION SECTION DE PRESENTATION */
+
+#presentation{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.question{margin-top: 1vh;}
+
+.pictxt{
+    display: flex;
+    margin-top: 7vh;
+    margin-left: 7.5vh;
+    margin-right: 7.5vh;
+}
+
+.txts {
+    
+    font-family: "Roboto Regular", sans-serif;
+    margin-left: 7.5vh;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: left;
+}
+
+
+
+.txt1 > p {margin-top: 2vh;}
+
+.txt1 > ul{margin-left: 5vh;}
+
+.txt2{margin-top: 5vh;}
+
+.txt2 > ul{margin-left: 5vh;}
+
+.txt2 > p {margin-top: 2vh;}
+
+/* CUSTOMISATION SECTION DES FRAMES  */
+
+#frames{
+    margin-top: 4vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-frames{
+   display: flex; 
+   flex-flow: column wrap;
+   justify-content: center;
+   align-items:center
+}
+
+.head-frames > h2 {margin-top: 3vh;}
+
+.head-frames > p {margin-top: 2vh;}
+
+.head-frames > a {margin-top: 4vh;}
+
+.butframe{
+    font-family: "Roboto Bold";
+    text-align: center;
+    width: 120px;
+    padding: 10px;
+    color: #ff4676;
+    border: #ff4676 solid 1px;
+    border-radius: 5px;
+}
+
+.fourthpack{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto", sans sans-serif;
+    margin-top: 7vh;
+}
+
+.frameone{
+    width: 70vh;
+    height: 30vh;
+}
+
+.frameone > h3{
+    margin-top: 3vh;
+}
+
+.frameone > p{
+    margin-top: 2vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.frametwo{
+    width: 70vh;
+    height: 30vh;
+}
+
+.frametwo > h3{
+    margin-top: 1.5vh;
+    
+}
+
+.frametwo > p{
+    margin-top: 2vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.framethree{
+    width: 70vh;
+    height: 30vh
+
+}
+
+.framethree > h3{
+    margin-top: 1.5vh;
+}
+
+.framethree > p{
+    margin-top: 2vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.framefour{
+    width: 70vh;
+    height: 30vh
+}
+
+.framefour > h3{
+    margin-top: 0.5vh;
+}
+
+.framefour > p{
+    margin-top: 2vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+span {font-family: "Roboto Bold",sans-serif;}
+
+#offres{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+
+/* CUSTOMISATION SECTION DES OFFRES  */
+
+
+#offres > p {
+    margin-top: 2vh;
+    margin-left: 45vh;
+    margin-right: 45vh;
+}
+
+.intro{
+    margin-top: 1vh;
+}
+
+.box {
+    margin-top: 10vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    position: relative;
+    width: 35vh;
+    height: 40vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.box1 > p {
+    margin-top: 3vh;
+}
+
+.talents::after{
+    display: block;
+    content: " ";
+    position: absolute;
+    width: 22vh;
+    top: 5vh;
+    left: 20%;
+    border-bottom: 1rem solid #84D6EB;
+    z-index: -1;
+}
+
+
+.box2{
+    position: relative;
+    width: 35vh;
+    height: 40vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.carriere::after{
+    display: block;
+    content: " ";
+    position: absolute;
+    width: 22vh;
+    top: 5vh;
+    left: 20%;
+    border-bottom: 1rem solid #FFE17A;
+    z-index: -1;
+}
+
+.box2 > p {
+    margin-top: 3vh;
+}
+
+.box2 > a {margin-top: 15vh;}
+
+.box3{
+    position: relative;
+    width: 35vh;
+    height: 40vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+
+.force::after{
+    display: block;
+    content: " ";
+    position: absolute;
+    width: 32vh;
+    left: 10%;
+    top: 5vh;
+    border-bottom: 1rem solid #CD83EB;
+    z-index: -1;
+}
+
+.box3 > p {
+    margin-top: 3vh;
+}
+
+.box3 > a {margin-top: 15vh;}
+
+
+.btn {
+    display: inline-block;
+    font-family: "Roboto Bold", sans-serif;
+    border: 1px solid #ff4676;
+    color: #ff4676;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    width: 120px;
+    margin-top: 10vh;
+}
+
+/* CUSTOMISATIN DE LA BOX CONSACRÉE AUX COMMENTAIRES */
+
+#clients {
+    margin-top: 5vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients > h2 {margin-top: 7vh;}
+
+.avis {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.client1 {
+    
+    height: 400px;
+    width: 400px;
+    border: 1px solid #3BD8C5;
+}
+
+.client1 > h3 {margin-top: 1vh;}
+
+.client1 > p{
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+
+.client2 {
+    height: 400px;
+    width: 400px;
+    border: 1px solid #3BD8C5;
+    margin-left: 7vh;
+    margin-right: 7vh;
+}
+
+.client2 > h3 {margin-top: 1vh;}
+
+.client2 > p{
+    margin-left: 1vh;
+    margin-right: 1vh; 
+}
+
+.client3 {
+
+    height: 400px;
+    width: 400px;
+    border: 1px solid #3BD8C5;
+}
+
+.client3 > h3 {margin-top: 1vh;}
+
+.client3 > p{
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+
+.subtitle {
+    margin-top: 2vh;
+    margin-bottom: 2vh;  
+}
+
+.stephane{
+    margin: -50px;
+    margin-bottom: 1rem;
+    border:white 8px solid;
+}
+
+.nicolas{
+    margin: -50px;
+    margin-bottom: 1rem;
+    border:white 8px solid;
+}
+
+.cecile{
+    margin: -50px;
+    margin-bottom: 1rem;
+    border:white 8px solid;
+}
+
+#blog {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.article{
+    display: flex;
+    height: 25vh;
+    width: 80vw;
+    margin-bottom: 5vh;
+    border-bottom: 1px solid #3BD8C5;
+}
+
+.article > img{
+    margin-left: 10vh;
+}
+
+.article > a {
+    display: inline-block;
+    margin-top: 10vh;
+}
+
+
+
+.article > {
+    margin-top: 2vh;
+}
+
+.article2{
+    display: flex;
+    height: 25vh;
+    width: 80vw;
+    margin-bottom: 5vh;
+}
+
+.article2{
+    display: flex;
+}
+
+.articles{
+    margin-top: 10vh;
+}
+
+
+.texte{
+    flex-direction: row;
+    margin-left: 5vh;
+    
+}
+
+.texte > p{
+    margin-top: 2vh;
+}
+
+.texte > a{
+    margin-top: 2vh;
+}
+
+.texte2{
+    flex-direction: row;
+    margin-left: 5vh;
+}
+
+.texte2 > p{
+    margin-top: 2vh;
+    margin-right: 15vh;
+}
+
+.texte2 > a{
+    margin-top: 2vh;
+}
+
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #E2E2E2;
+    height: 35vh;
+}
+
+.logofoot{
+    border-right: solid 1px black;
+    height: 20vh;
+    margin-right: 5vh;
+    padding-right: 3vh;
+    margin-left: 50vh;
+}
+
+.logofoot img {
+    height: 20vh;
+}
+
+.coordonees {
+    margin-top: 3vh;
+}
+
+.formcontact{
+    font-family: "Roboto Bold", sans-serif;
+}
+
+.lastp{
+    margin-top: 3vh;
+}
+/* BOUTONS PSEUDOCLASSES */
+
+
+.btn:hover{
+    background-color: #ff4676;
+    color: white;
+}
+
+.btn1:hover{
+    background-color: white;
+    color: #ff4676;
+}
+
+.butframe:hover{
+    background-color: #ff4676;
+    color :white;
+} 
+    
+/* RESPONSIVE TABLETTE  */
+
+@media screen and (max-width: 768px) 
+
+{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo{
+        height: 10vh; 
+        margin-right: auto;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    header > nav {
+        display: none;
+    }
+
+    #banner {
+        width: auto;
+    }
+
+    .pictxt {
+        flex-direction: column;
+    }
+
+    .txts{
+        margin-top: 2rem;
+    }
+
+    .btn1
+
+    {
+    
+        text-align: center;
+        font-family: "Roboto Bold", sans-serif;
+        color: white;
+        border: 1px solid #ff4676;
+        border-radius: 3px;
+        background-color: #ff4676;
+        width: 8rem;
+        padding: 0.5rem;
+        font-size: 0.8rem;
+
+    }
+
+    .fourthpack{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        text-align: center;
+        font-family: "Roboto", sans sans-serif;
+        margin-top: 7vh;
+    }
+    
+    .frameone{
+        width: 40vh;
+        height: 30vh;
+    }
+    
+    .frameone > h3{
+        margin-top: 3vh;
+    }
+    
+    .frameone > p{
+        font-size: 1em;
+        margin-top: 2vh;
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+    
+    .frametwo{
+        width: 40vh;
+        height: 30vh;
+    }
+    
+    .frametwo > h3{
+        margin-top: 1.5vh;
+        
+    }
+    
+    .frametwo > p{
+        font-size: 1em;
+        margin-top: 2vh;
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+    
+    .framethree{
+        margin-top: 6rem;
+        width: 40vh;
+        height: 30vh
+    
+    }
+    
+    .framethree > h3{
+        margin-top: 1.5vh;
+    }
+    
+    .framethree > p{
+        font-size: 1em;
+        margin-top: 2vh;
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+    
+    .framefour{
+        
+        margin-top: 5.7rem;
+        font-size: 1em;
+        width: 30vh;
+        height: 30vh;
+        
+    }
+    
+    .framefour > h3{
+        margin-top: 0.5vh;
+    }
+    
+    .framefour > p{
+        margin-top: 2vh;
+        margin-left: 2vh;
+        margin-right: 2h;
+    }
+
+    #offres{
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+
+
+
+    #offres > p {
+        margin-top: 5vh;
+        margin-left: 45vh;
+        margin-right: 45vh;
+    }
+
+    #blog > .articles {
+        font-size: 10px;
+    }
+
+    #blog > .article2 {
+        font-size: 10px;
+    }
+   
+   
+
+    .logofoot {
+        display: none;
+    }
+}
